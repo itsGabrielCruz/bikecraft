@@ -1,5 +1,5 @@
 /* Estilo para tablets */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 788px) and (max-width: 979px) {
     /* Qualidade Home */
     .qualidade:after {
         right: 66px;
@@ -23,10 +23,34 @@
         height: 26px;
     }
 
+    /* Produtos */
+
+    .produto_item h2 {
+        top: -150px;
+        margin-bottom: -56px;
+        
+    }
+
+    .produto_icone {
+        padding: 41px 0;
+    }
+
+    .produto_info p {
+        font-size: 14px;
+        line-height: 20px;
+        height: 122px;
+        padding: 20px 30px;
+    }
+
+    .produto_info ul li {
+        width: 181px;
+        height: 49px;
+    }
+
 }
 
 /* Estilo par smartphone */
-@media only screen and (max-width: 767px)  {
+@media only screen and (max-width: 787px)  {
    
    /* Header */
     .header {
@@ -104,5 +128,48 @@
     .foto_equipe {
         padding-top: 20px;
     }
+
+        /* Produtos */
+
+        .produto_item h2 {
+            top: -100px;
+            margin-bottom: -68px;
+            
+        }
+    
+        .produto_icone {
+            padding: 41px 0;
+        }
+    
+        .produto_info p {
+            font-size: 14px;
+            line-height: 20px;
+            height: auto;
+            padding: 20px 30px;
+        }
+    
+        .produto_info ul li {
+            width: 149px;
+            height: 49px;
+            font-size: 14px;
+            line-height:20px;
+            padding-top: 14px;
+        }
+
+        /* Produtos formulário */
+        .form {
+            padding-right: 0px;
+        }
+
+        .orcamento_dados ul {
+            padding-right: 0px;
+        }
+        /* Conato formulário */
+        .contato_form {
+            padding-right: 0px;
+            margin-bottom: 50px;
+        }
+        
+
 
 }
